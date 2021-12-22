@@ -91,7 +91,8 @@ class ButtonStaggerAnimation extends StatelessWidget {
                     color: borderColor ?? Color(0xffff5745),
                     width: borderWidth!),
               )),
-              foregroundColor: MaterialStateProperty.all(color),
+              backgroundColor: MaterialStateProperty.all(Color(0xFF00876E)),
+              foregroundColor: MaterialStateProperty.all(Color(0xFF00876E)),
             ),
             child: _buttonChild(),
             onPressed: () {
